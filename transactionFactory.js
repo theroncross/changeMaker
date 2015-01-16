@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Transaction Factory</title>
-</head>
-<body>
-<script>
-
 var transaction = function(spec) {
   var that = {};
  
@@ -69,7 +60,3 @@ transaction3.makeChange();
 var transaction4 = transaction({cost: 1,        //need more money
                                 payment: 0.43});
 transaction4.makeChange();
-
-</script>
-</body>
-</html>
